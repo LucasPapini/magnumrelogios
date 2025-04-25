@@ -5,11 +5,13 @@ Este projeto é uma API RESTful desenvolvida com Quarkus para gerenciar dados de
 
 # Estrutura do Projeto
 
-src/main/java/br/com/lucaspapini/
-├── controller/      <- REST controllers (Contém os controladores da API (endpoints).)
-├── service/         <- Camada de regras de negócio (Contém os serviços que implementam a lógica de negócios.)
-├── repository/      <- Acesso a dados (JPA/Panache Contém as classes responsáveis por interagir com o banco de dados.)
-└── dto/             <- DTOs para entrada/saída ( Contém os Data Transfer Objects (DTOs) usados para transferir dados entre a API e o cliente.)
+```src/main/java/com/seuprojeto/
+```├── controller/      <- REST controllers
+```├── service/         <- Camada de regras de negócio
+```├── repository/      <- Acesso a dados (JPA/Panache)
+```├── domain/          <- Entidades, enums, value objects
+```└── dto/             <- DTOs para entrada/saída
+
 
 
 # Tecnologias Utilizadas
